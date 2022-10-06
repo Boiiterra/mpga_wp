@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math problem generator app</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/gif" href="logo.png" />
+    <script src="main.js" defer></script>
+</head>
+<body style="background-color: #100c0c;">
+
+    <!-- Top of the page -->
+    <span id="home"></span>
+
+    <!-- Navigation bar -->
+
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="." id="navbar__home" title="Math problem generator app">
+                <img class="navbar__logo" src="logo.png" alt="MPGA" />
+            </a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <p class="navbar__txt">Menu</p>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="#home" class="navbar__links">Домой</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#download" class="navbar__links"><b>Скачать</b></a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#info" class="navbar__links">Информация</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#about" class="navbar__links">О нас</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#contact" class="navbar__links">Связь с нами</a>
+                </li>
+                <li class="navbar__item--mobile">
+                    <a href=".." class="navbar__links">Изменить язык на EN</a>
+                </li>
+                <li class="language__menu">
+                    <span class="language__menu--eng">RU</span>
+                    <div class="language__menu--ru">
+                        <a href="..">EN</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero section -->
+
+    <div class="hero">
+        <div class="hero__container">
+            <div class="hero__content">
+                <h1 class="hero__heading">MATH PROBLEM GENERATOR APP</h1>
+                <p class="hero__subheading">
+                    Математика прекрасна. Используя её, можно сделать множество вещей.<br> 
+                    Изучай и практикуй математику, решая различные задачки, созданные в одно нажатие.<br>
+                    <span><b>(Только для Windows)</b></span>
+                </p>
+                <button class="hero__btn" onclick="location.href='#download'">
+                    <b>НАЧАТЬ ПУТЕШЕСТВИЕ!</b>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Download section -->
+
+    <div class="separator" id="download"></div>
+
+    <div class="download">
+        <div class="download__container">
+            <div class="download__content">
+                <h1>Давайте начнём</h1>
+                <p>
+                    Начать прекрасное путешествие в мир математики, скачав приложение.
+                </p>
+                <button class="download__btn" onclick="location.href='https:\\github.com/TerraBoii/math_problem_generator_app/raw/main/app_installer/mathproblemgenerator_setup.exe'" title="Download app installer.">
+                    <b>Скачать</b>
+                </button>
+            </div>
+            <div class="download__img--container">
+                <image src="app_ss_main.png" id="download__img" alt="Изображение приложения." title="Изображение приложения." />
+            </div>
+        </div>
+    </div>
+
+    <div class="separator"></div>
+
+    <!-- Info section -->
+
+    <div class="separator" id="info""></div>
+
+    <div class="info">
+        <div class="info__container--main">
+            <h1 class="info__heading">Немного информации</h1>
+            <h2 class="info__subhead">о проекте</h2>
+            <p class="info__info"></p>
+        </div>
+        <div class="info__container--extra">
+            <h2 class="info__topic">1. Интернет соединение для приложения</h2>
+            <p class="info__info">
+                Интернет соединение не важно для приложения для правильной работы,
+                но оно необходимо для обновления приложения 
+            </p>
+            <h2 class="info__topic">2. Немного о математических задачках</h2>
+            <p class="info__info">
+                Приложение создаёт разные математические задачи, начиная с простых и
+                заканчивая немного интересными. Эти задачи создаются по различным темам,
+                число которых ограничено.
+            </p>
+            <h2 class="info__topic">3. Обновления необязательны</h2>
+            <p class="info__info">
+                Если доступна новая версия, приложение не будет обновляться без разрешения пользователя.
+            </p>
+        </div>
+    </div>
+
+    <!-- About section -->
+
+    <div class="separator"></div>
+    <div class="separator" id="about"></div>
+
+    <div class="about">
+        <div class="about__container--head">
+            <h1 class="about__header">О нас</h1>
+        </div>
+        <div class="about__title">
+            <h1>Короткая история:</h1>
+        </div>
+        <div class="about__story">
+            <p>
+                Идея о создании генератора для задач по математике появилась случайно
+                и была интересной. Возможно результат этой идеи кому-нибуть поможет в 
+                понимании довольно простой математики.<br>
+                Извините за супер короткую историю, создавать более длинную сложновато.
+            </p>
+        </div>
+        <div class="about__title">
+            <h1>Цели:</h1>
+        </div>
+        <div class="about__goal">
+            <p>
+                1. Упростить создания задач по матиматике.<br>
+                2. Автоматизировать создание задач по математике.
+            </p>
+        </div>
+        <div class="about__title">
+            <h1>Команда:</h1>
+        </div>
+        <div class="about__container--team">
+            <div class="about__team__img">
+                <img src="https://avatars.githubusercontent.com/u/81579070?v=4" id="creator__img" alt="Profile picture" title="Profile picture" />
+            </div>
+            <div class="about__team">
+                <h1 title="Nickname">TerraBoii.</h1>
+                <p>
+                    Автор, главный разработчик, главный дизайнер.<br>
+                    "Как начинающий я думаю, что создал интересное приложение, которое, я надеюсь,
+                    поможет кому-то." - TerraBoii.<br>
+                    Если хотите узнать мои другие проекты, то вы можете найти меня на GitHub:<br>&ensp;&nbsp;
+                    <a href="https://github.com/TerraBoii" title="TerrraBoii's profile">
+                        --> "Мой профиль"
+                    </a><br>&ensp;&nbsp;
+                    <a href="https://github.com/TerraBoii/?tab=repositories" title="TerrraBoii's projects">
+                        --> "Мои проекты"
+                    </a><br><br>
+                    Если хотите узнать больше обо мне, то вы можете посмотреть моё портфолио:<br>&ensp;&nbsp;
+                    <a href="https://terraboii.github.io/" title="TerrraBoii's webpage">
+                        --> "Мой личный сайтик"
+                    </a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Contact section -->
+
+    <div class="separator"></div>
+    <div class="separator" id="contact""></div>
+
+    <div class="contact">
+        <div class="contact__container--head">
+            <h1 class="contact__header">Как с нами связаться:</h1>
+        </div>
+        <div class="contact__container--body">
+            <p>--> 
+            <a class="contact__link" href="https://github.com/TerraBoii/math_problem_generator_app/discussions">
+                | Страница обсуждения |</a> <--</p>
+            <p>--> 
+            <a class="contact__link" href="https://github.com/TerraBoii/math_problem_generator_app/discussions/23">
+                | Правила обсуждения |</a> <--</p>
+            <p>--> 
+            <a class="contact__link" href="https://github.com/TerraBoii/math_problem_generator_app/discussions/new">
+                | Начать обсуждение |</a> <--</p>
+        </div>
+    </div>
+
+    <!-- placeholders -->
+
+    <div class="separator"></div>
+    <div class="separator"></div>
+    <div class="separator"></div>
+    <div class="separator"></div>
+    <div class="separator"></div>
+    <div class="separator"></div>
+    <div class="separator"></div>
+    <div class="separator"></div>
+    <div class="separator"></div>
+    <div class="separator"></div>
+    <div class="separator"></div>
+    <div class="separator"></div>
+    <div class="separator"></div>
+    <div class="separator"></div>
+    <div class="separator"></div>
+
+</body>
+</html>
